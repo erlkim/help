@@ -180,7 +180,7 @@ apt-get install libio-socket-inet6-perl libsocket6-perl libcrypt-ssleay-perl lib
 timedatectl set-timezone Asia/Jakarta;
 
 #Install Marzban
-sudo bash -c "$(curl -sL https://github.com/erlkim/Marzban-scripts/raw/master/marzban.sh)" @ install
+sudo bash -c "$(curl -sL https://raw.githubusercontent.com/erlkim/Marzban-scripts/master/marzban.sh)" @ install
 
 #Install Subs
 wget -N -P /var/lib/marzban/templates/subscription/  https://raw.githubusercontent.com/erlkim/help/main/index.html
