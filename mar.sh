@@ -232,7 +232,7 @@ wget -O /opt/marzban/nginx.conf "https://raw.githubusercontent.com/erlkim/help/m
 wget -O /opt/marzban/default.conf "https://raw.githubusercontent.com/erlkim/help/main/vps.conf"
 wget -O /opt/marzban/xray.conf "https://raw.githubusercontent.com/erlkim/help/main/xray.conf"
 mkdir -p /var/www/html
-echo "<pre>Setup by AutoScript</pre>" > /var/www/html/index.html
+echo "<pre>Setup by Erlkim.........✌️</pre>" > /var/www/html/index.html
 
 #install socat
 apt install iptables -y
